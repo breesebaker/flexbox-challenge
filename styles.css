@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: PT serif;
+}
+
+nav, 
+nav * {
+  display: flex;
+  align-items: center;
+  font-weight: bolder;
+  justify-content: center;
+}
+
+nav {
+  height: 50px;
+  width: 100%;
+  font-size: medium;
+  background-color: black;
+  color: white;
+}
+
+#logo {
+  height: 100%;
+  width: 200px;
+  background-color: green;
+}
+
+#nav-links {
+  height: inherit;
+  width: 200px;
+  justify-content: flex-end;
+}
+
+
+
